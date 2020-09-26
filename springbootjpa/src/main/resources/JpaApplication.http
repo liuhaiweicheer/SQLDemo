@@ -1,0 +1,10 @@
+POST /user/add HTTP/1.1
+Host: 127.0.0.1:8080
+Content-Type: application/json
+Cache-Control: no-cache
+#必须加个空格
+
+{"name":"jack","email":"123@126.com"}
+#######
+GET http://127.0.0.1:8080/user/getAll?size=3&page=0
+###
